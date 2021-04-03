@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top 0px left 0px, bottom 0px right 0px;
+    font-family: 'Spartan', sans-serif;
+}
+
+main {
+    align-items: center;
+}
+
+#testimonials {
+    height: 17rem;
+}
+
+#testimonials div.col-md-4 {
+    margin: 15px auto;
+}
+
+.bi-star-fill {
+    color: #e9a72c;
+}
+
+section.row {
+    margin-bottom: 85px;
+}
+
+h1 {
+    color: #502050;
+    font-weight: 700;
+    font-size: 3.5vw;
+}
+
+section p {
+    color: #502050;
+}
+
+.star-row {
+    margin-bottom: 15px;
+}
+
+.star-wrap i, .rating p {
+    font-size: .8vw;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 5px;
+    padding: 1vw;
+}
+
+.rating p {
+    margin: 0;
+    font-weight: 700;
+}
+
+.testimonial-card {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 12px;
+}
+
+.testimonial-card .row {
+    padding: 15px;
+}
+
+.testimonial-portrait {
+    border-radius: 50px;
+    width: 70%;
+}
+
+.card-name {
+    margin-bottom: 0px;
+    font-weight: 500;
+    color: hsl(300, 24%, 96%);
+}
+
+.card-verification {
+    margin-bottom: 0px;
+    color: hsl(333, 80%, 67%);
+}
+
+.card-testimonial {
+    color: hsl(300, 24%, 96%);
+}
+
+@media only screen and (max-width: 768px) {
+    .vh-100 {
+        height: auto !important;
+    }
+    h1 {
+        font-size: 7vw;
+        text-align: center;
+        margin: 30px;
+    }
+
+    section p {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+    section.row {
+        margin-bottom: 0px;
+    }
+
+    .star-wrap i, .rating p {
+        font-size: 3vw;
+        padding: 4px;
+    }
+
+    .ratings {
+        padding: 0 30px;
+    }
+
+    .rating {
+        flex-direction: column;
+    }
+    #testimonials {
+        height: initial;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    main {
+        align-items: flex-start;
+    }
+}
